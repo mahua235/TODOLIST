@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>简易轮播图</title>
+        <link rel="stylesheet" href="lunbotu.css">
+    </head>
+    <body>
+        <div class="image-4">
+            <!-- data-imgs 是图片的总数 -->
+            <!-- data-active 是当前显示的图片的下标 -->
+            <div class="slide" data-imgs="4" data-active="0">
+                <img id=id-image-0 class="slide-image active" src="images/1.jpg" alt="">
+                <img id=id-image-1 class=slide-image src="images/2.jpg" alt="">
+                <img id=id-image-2 class=slide-image src="images/3.jpg" alt="">
+                <img id=id-image-3 class=slide-image src="images/4.jpg" alt="">
+                <!-- 左右按钮 -->
+                <button class="slide-button left vertical-center"
+                        data-offset="-1"> &lt; </button>
+                <button class="slide-button right vertical-center"
+                        data-offset="1"> &gt; </button>
+                <!-- 小圆点 -->
+                <div class="slide-indicators">
+                    <div id='id-indi-0'class="slide-indi white"
+                        data-index='0'></div>
+                    <div id='id-indi-1' class="slide-indi"
+                        data-index='1'></div>
+                    <div id='id-indi-2' class="slide-indi"
+                        data-index='2'></div>
+                    <div id='id-indi-3' class="slide-indi"
+                        data-index='3'></div>
+                </div>
+            </div>
+        </div>
+        <script src=lunbo.js></script>
+    </body>
+</html>
