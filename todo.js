@@ -147,5 +147,5 @@ todoContainer.addEventListener('click', function(event){
         var todoDiv = target.parentElement
         var container = todoDiv.parentElement
         deleteTodo(container, todoDiv)
-    }
+    } 
 })
